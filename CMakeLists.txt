@@ -14,14 +14,15 @@ add_compile_options(-Wall
         -Wno-format          # int != int32_t as far as the compiler is concerned because gcc has int32_t as long int
         -Wno-unused-function # we have some for the docs that aren't called
         -Wno-maybe-uninitialized
+        -g
         )
 
 
-add_executable(armtest main.c io.c)
+add_executable(armtest main.c)
 
 target_link_libraries(armtest pico_stdlib)
 
 pico_enable_stdio_usb(armtest 1)
-pico_enable_stdio_uart(armtest 0)
+pico_enable_stdio_uart(armtest 1)
 
 pico_add_extra_outputs(armtest)

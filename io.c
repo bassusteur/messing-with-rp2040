@@ -1,17 +1,18 @@
 #include "io.h"
 
-int write(int data, int address)
+/*
+void store(int data, int address, int offset)
 {
-    int out=0;
+    int out;
     asm(
-        "mov %%r1, %2;"
-        "mov %%r2, %1;"
-        //"str %%r2, [%%r1];"
-        "mov %0, %%r1;"
+        "ldr %%r0, %1;"
+        "ldr %%r1, %2;"
+        "ldr %%r2, %3;"
+        "str %%r0, [%%r1, %%r2];"
         : "=r" (out)
-        : "r" (data), "r" (address)
-        : "%r1", "%r2"
+        : "r" (data), "r" (address), "r" (offset)
+        : "%r0", "%r1", "%r3"
        );
     
-    return out;
 }
+*/

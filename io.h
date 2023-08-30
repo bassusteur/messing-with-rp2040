@@ -2,6 +2,6 @@
 #define IO_H
 #include "main.h"
 
-int write(int data, int address);
+void store(int data, int address, int offset);
 
 #endif
