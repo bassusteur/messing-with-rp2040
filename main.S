@@ -4,6 +4,9 @@
 @ Raspberry Pi GPIO writing to the registers directly.
 @
 @
+
+@ i have taken this from a book by Stephen Smith called RP2040 assembly language programming arm cortex m0+
+
 #include "hardware/regs/addressmap.h"
 #include "hardware/regs/sio.h"
 #include "hardware/regs/io_bank0.h"
