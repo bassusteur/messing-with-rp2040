@@ -41,6 +41,6 @@ So three things to note:
 }
 ```
 
-2. For whatever reason the svd file provided when you install the pico-sdk doesn't work, at least in my case it doesn't let you mess with the peripherial registers and shows them all as read-only, so you will need to [download](https://github.com/raspberrypi/pico-sdk/blob/master/src/rp2040/hardware_regs/rp2040.svd) this one instead and replace the old one with it ```(${env:PICO_SDK_PATH}/src/rp2040/hardware_regs/rp2040.svd)```.
+2. For whatever reason the svd file provided when you install the pico-sdk doesn't work, at least in my case it doesn't let you mess with the peripherial registers and shows them all as read-only, so you will need to [download](https://github.com/raspberrypi/pico-sdk/blob/master/src/rp2040/hardware_regs/rp2040.svd) this one instead and replace the old one with it ```${env:PICO_SDK_PATH}/src/rp2040/hardware_regs/rp2040.svd```.
 
 3. Make sure to download the [right](https://github.com/raspberrypi/picoprobe/releases/tag/picoprobe-cmsis-v1.0.3) firmware if you're using an rp2040 to debug another rp2040 select the downloads with the name "picoprobe" and not "debugprobe"
