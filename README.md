@@ -7,8 +7,7 @@ Hi! if you stumbled upom this github repository you might be looking to work wit
 * using cortex-debug vscode extension to debug
 ## issues
 So three things to note:
-1. The [guide i initially followed](https://www.digikey.be/en/maker/projects/raspberry-pi-pico-and-rp2040-cc-part-2-debugging-with-vs-code/470abc7efb07432b82c95f6f67f184c0) is old and used *arm-none-eabi-gdb*,
-in the cortex-debug config you instead need to use *gdb-multiarch*
+1. The [guide i initially followed](https://www.digikey.be/en/maker/projects/raspberry-pi-pico-and-rp2040-cc-part-2-debugging-with-vs-code/470abc7efb07432b82c95f6f67f184c0) is old and used deprecated configs and executables so here's an updated config file:
 ```js
 {
     "version": "0.2.0",
