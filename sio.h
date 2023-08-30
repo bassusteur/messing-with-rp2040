@@ -9,7 +9,7 @@ typedef volatile uint32_t rw_32; // this is equal to io_rw_32
 // here i recreate the typedef struct that's in "hardware/structs/sio.h"
 typedef struct {
     _REG_(SIO_GPIO_OUT_SET_OFFSET) // again, this macro does nothing for the program it's only for IDE convenience as stated in "/hardware/address_mapped.h"
-    rw_32 anything;    // so this declares a member of the struct and uses the data type we defined which is 32 bits wide (4 bytes)
+    rw_32 anything;    // this declares a member of the struct and uses the data type we defined which is 32 bits wide (4 bytes)
     rw_32 anythingtwo; // we declare another member here, will be important in main.c
 } sio_b_t;
 
