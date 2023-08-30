@@ -1,6 +1,7 @@
 # messing with rp2040
 Hi! if you stumbled upon this github repository you might be looking to work with your rp2040 on a lower level or trying to understand how it works.. that's what i was trying to do here!
-The code contains nothing special, so here's **a few tips:**
+The code contains nothing special, so here's 
+### a few tips:
 ## my working enviroment
 * I'm on debian 11
 * i've installed the [pico-sdk 1.5.1](https://github.com/raspberrypi/pico-sdk)
