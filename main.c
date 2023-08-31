@@ -10,6 +10,7 @@ int main()
 
     // performs a left shift of the 1 of 25 positions (or whatever the gpio pin number is)
     uint32_t mask = 1 << gpio;
+    // (e.g 0b00000001 << 5 = 0b00100000)
 
     // here you see me using the pico-sdk defined structs to write to the registers and setup our blinking led
 
