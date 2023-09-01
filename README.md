@@ -46,7 +46,7 @@ So three things to note:
 3. Make sure to download the [right](https://github.com/raspberrypi/picoprobe/releases/tag/picoprobe-cmsis-v1.0.3) firmware if you're using an rp2040 to debug another rp2040 select the downloads with the name "picoprobe" and not "debugprobe"
 
 ## cool resources
-1. [bitwisecmd](https://bitwisecmd.com/)
-2. [RO2040 assembly language programming by S. Smith book code repo](https://github.com/Apress/RP2040-Assembly-Language-Programming)
-3. [Cortex-M0+ generic user guide](https://developer.arm.com/documentation/dui0662/b?lang=en)
-4. [RP2040 assembly language programming github](https://link.springer.com/chapter/10.1007/978-1-4842-7753-9_6)
+- [bitwisecmd](https://bitwisecmd.com/)
+-  [RO2040 assembly language programming by S. Smith book code repo](https://github.com/Apress/RP2040-Assembly-Language-Programming)
+- [Cortex-M0+ generic user guide](https://developer.arm.com/documentation/dui0662/b?lang=en)
+- [RP2040 assembly language programming github](https://link.springer.com/chapter/10.1007/978-1-4842-7753-9_6)
