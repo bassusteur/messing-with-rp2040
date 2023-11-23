@@ -24,7 +24,7 @@ int main()
         // the next function we execute will print the offset of the two members in the struct, 
         // this is important because it will show us that the size of the members (e.g 32 bit in our case) will define the offset between them
         // and is crucial when defining the location of the registers in memory
-        printf("1: %i 2: %i\n", offsetof(sio_b_t,anything), offsetof(sio_b_t,anythingtwo)); // so here we take 
+        printf("1: %i 2: %i\n", offsetof(sio_b_t,anything), offsetof(sio_b_t,anythingtwo));
 
         sio_hw->gpio_set = mask;
         sleep_ms(200);
