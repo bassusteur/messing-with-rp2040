@@ -49,4 +49,4 @@ So three things to note:
 - [bitwisecmd](https://bitwisecmd.com/)
 - [RP2040 assembly language programming by S. Smith book code repo](https://github.com/Apress/RP2040-Assembly-Language-Programming)
 - [Cortex-M0+ generic user guide](https://developer.arm.com/documentation/dui0662/b?lang=en)
-- [RP2040 assembly language programming github](https://link.springer.com/chapter/10.1007/978-1-4842-7753-9_6)
+- [RP2040 assembly language programming book](https://link.springer.com/chapter/10.1007/978-1-4842-7753-9_6)
