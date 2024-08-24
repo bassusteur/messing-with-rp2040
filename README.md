@@ -9,7 +9,7 @@ The code contains nothing special, so here's
 * [cortex-debug vscode extension](https://github.com/Marus/cortex-debug)
 ## issues
 So three things to note:
-1. The [guide i initially followed](https://www.digikey.be/en/maker/projects/raspberry-pi-pico-and-rp2040-cc-part-2-debugging-with-vs-code/470abc7efb07432b82c95f6f67f184c0) is old and used deprecated configs and executables so here's an updated config file:
+1. The [guide i initially followed](https://www.digikey.be/en/maker/projects/raspberry-pi-pico-and-rp2040-cc-part-2-debugging-with-vs-code/470abc7efb07432b82c95f6f67f184c0) is old and uses deprecated configs and executables, so i made my own config file:
 ```js
 {
     "version": "0.2.0",
